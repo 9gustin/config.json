@@ -22,3 +22,27 @@ alias pushb='git push -u origin '
 alias st='git status'
 alias push='git push'
 ```
+
+aliases 
+```
+alias cfg="vi ~/.zshrc"
+alias save-cfg="source ~/.zshrc"
+
+
+alias st="npm start"
+alias lcl="npm run local"
+alias i="npm install"
+alias bld="npm run build"
+alias beta="npm run build && npm publish --tag beta"
+alias ilcl="npm install && npm run local"
+alias ist="npm install & st"
+alias clean-yalc="rm -r .yalc yalc.lock"
+alias clean-npm="rm -r node_modules package-lock.json yarn.lock"
+
+alias gp="git push --no-verify"
+alias gpl="git pull"
+alias gca="git add . && git commit -m "
+alias gc="git commit -m "
+alias ck="git checkout "
+alias ckb="git checkout -"
+```
