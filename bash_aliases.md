@@ -23,7 +23,8 @@ alias st='git status'
 alias push='git push'
 ```
 
-aliases 
+# aliases 
+## theme: miloshadzic
 ```
 alias cfg="vi ~/.zshrc"
 alias save-cfg="source ~/.zshrc"
